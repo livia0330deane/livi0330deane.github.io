@@ -4,9 +4,6 @@
     window.opspark.platform = window.opspark.platform || {};
     
     let platform = window.opspark.platform;
-createPlatform(400, 460);
-createPlatform(300, 200, 0.3);
-createPlatform
     /**
      * init: This function initializes the platforms for the level.
      * 
@@ -39,17 +36,11 @@ createPlatform
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
         // example:
-        function create(x, y, scaleX, scaleY, immovable) {
-    var platform = game.platforms.create(x, y, 'platform');
-    platform.scale.setTo(scaleX || 1, scaleY || 1);
-    platform.body.immovable = immovable || true;
-    return platform;
-}
+
         
-        createPlatform(400, 250,);
-        createPlatform(400, 460);           
-        createPlatform(300, 200, 0.3)      
-        createPlatform(500, 500, 0.3, 10)   
+        createPlatform(150, 300);
+        createPlatform(300, 600);           
+        createPlatform(100, 450); 
 
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
